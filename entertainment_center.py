@@ -23,12 +23,12 @@ TREASURE_PLANET = media.Movie("Treasure Planet",
 PULP_FICTION = media.Movie("Pulp Fiction",
                            "LA Gangsters do gangster things.",
                            "http://imgc.allpostersimages.com/img/posters/pulp-fiction-uma-on-bed-movie-poster_u-L-F5UYZ30.jpg",
-                           "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
+                           "https://www.youtube.com/watch?v=ewlwcEBTvcg")
 
 SPACEBALLS = media.Movie("Spaceballs",
                          "Mel Brooks pokes fun at the Star Wars franchise.",
                          "https://images-na.ssl-images-amazon.com/images/I/51YxtWfTKEL.jpg",
-                         "https://www.youtube.com/watch?v=kGIM_yNzeUo")
+                         "https://www.youtube.com/watch?v=dAuQ5hBZqqM")
 
-movies = [incredibles, eoe, lebowski, treasure_planet, pulp_fiction, spaceballs]
-#fresh_tomatoes.open_movies_page(movies)
+MOVIES = [INCREDIBLES, EOE, LEBOWSKI, TREASURE_PLANET, PULP_FICTION, SPACEBALLS]
+fresh_tomatoes.open_movies_page(MOVIES)

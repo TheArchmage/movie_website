@@ -41,6 +41,8 @@ SPACEBALLS = media.Movie("Spaceballs",
                           "1YxtWfTKEL.jpg"),
                          "https://www.youtube.com/watch?v=dAuQ5hBZqqM")
 
+"Populate movies into a list"
 MOVIES = [INCREDIBLES, EOE, LEBOWSKI, TREASURE_PLANET, PULP_FICTION,
           SPACEBALLS]
+"Produce and open the HTML page"
 fresh_tomatoes.open_movies_page(MOVIES)

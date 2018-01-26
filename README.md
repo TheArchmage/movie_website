@@ -12,3 +12,8 @@ To run this program:
 
 
 If you would like to include your own movies, trailer-url's, and artwork, feel free to add/remove/modify the instances of the `media.Movie()` class in `entertainment_center.py`
+
+## Attribution
+This project utilizes the fresh_tomatoes.py module, which was written by adarssh0806 for the Udacity "Introduction to Object Oriented Programming" course. 
+
+The code contained in entertainment_center.py and media.py is derived from code presented in the lectures for the Udacity course "Introduction to Object Oriented Programming".

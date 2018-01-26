@@ -16,11 +16,11 @@ EOE = media.Movie("End of Evangelion", "Sad boy destroys the world",
                    ".jpg"),
                   "https://www.youtube.com/watch?v=IQrXRBh94IA")
 
-LEBOWSKI = media.Movie("The Big Lebowski",
-                       "The Dude abides.",
-                       ("https://tommygirard.files.wordpress.com/2017/04/t"
-                        "hebiglebowski_onesheet_international-1.jpg"),
-                       "https://www.youtube.com/watch?v=cd-go0oBF4Y")
+STAR_TREK = media.Movie("Star Trek (2009)",
+                        "Young captain of starship boldly goes",
+                        ("https://throughthesilverscreenuk.files.wordpress."
+                         "com/2016/07/star-trek-2009-movie-poster.jpg"),
+                        "https://www.youtube.com/watch?v=fdneFmLn0Sg")
 
 TREASURE_PLANET = media.Movie("Treasure Planet",
                               "Boy goes on sci-fi treasure hunt.",
@@ -33,7 +33,7 @@ PULP_FICTION = media.Movie("Pulp Fiction",
                            ("http://imgc.allpostersimages.com/img/posters/pul"
                             "p-fiction-uma-on-bed-movie-poster_u-L-F5UYZ30.jp"
                             "g"),
-                           "https://www.youtube.com/watch?v=ewlwcEBTvcg")
+                           "https://www.youtube.com/watch?v=tGpTpVyI_OQ")
 
 SPACEBALLS = media.Movie("Spaceballs",
                          "Mel Brooks pokes fun at the Star Wars franchise.",
@@ -42,7 +42,7 @@ SPACEBALLS = media.Movie("Spaceballs",
                          "https://www.youtube.com/watch?v=dAuQ5hBZqqM")
 
 "Populate movies into a list"
-MOVIES = [INCREDIBLES, EOE, LEBOWSKI, TREASURE_PLANET, PULP_FICTION,
+MOVIES = [INCREDIBLES, EOE, STAR_TREK, TREASURE_PLANET, PULP_FICTION,
           SPACEBALLS]
 "Produce and open the HTML page"
 fresh_tomatoes.open_movies_page(MOVIES)
